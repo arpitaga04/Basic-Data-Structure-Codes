@@ -624,71 +624,71 @@ int main()
 			break;
 			
 			case 2:
-			start = struct node *create_beg();
+			start = create_beg();
 			break;
 			
 			case 3:
-			traverse(struct node *start);
+			traverse(start);
 			break;
 			
 			case 4:
-			start = insert_beg(struct node *start);
+			start = insert_beg(start);
 			break;
 			
 			case 5:
-			start = insert_end(struct node *start);
+			start = insert_end(start);
 			break;
 			
 			case 6:
-			search_elem(struct node *start); 
+			search_elem(start); 
 			break;
 			
 			case 7:
-			count_elem(struct node *start);
+			count_elem(start);
 			break;
 			
 			case 8:
-			start = insert_position(struct node *start);
+			start = insert_position(start);
 			break;
 			
 			case 9:
-			insert_after_element(struct node *start);
+			insert_after_element(start);
 			break;
 			
 			case 10:
-			start = insert_before_element(struct node *start);
+			start = insert_before_element(start);
 			break;
 			
 			case 11:
-			start = insert_in_order(struct node *start);
+			start = insert_in_order(start);
 			break;
 			
 			case 12:
-			start = delete_position(struct node *start);
+			start = delete_position(start);
 			break;
 			
 			case 13:
-			delete_after_element(struct node *start);
+			delete_after_element(start);
 			break;
 			
 			case 14:
-			start = delete_before_element(struct node *start);
+			start = delete_before_element(start);
 			break;
 			
 			case 15:
-			start = delete_all_element_occurence(struct node *start);
+			start = delete_all_element_occurence(start);
 			break;
 			
 			case 16:
-			del_middle_node(struct node *start);
+			del_middle_node(start);
 			break;
 			
 			case 17:
-			start = reverse_list(struct node *start);
+			start = reverse_list(start);
 			break;
 			
 			case 18:
-			start = arrange_even_odd(struct node *start);
+			start = arrange_even_odd(start);
 			break;
 			
 			case 999:
@@ -701,4 +701,3 @@ int main()
 
 	return 1;
 }
-		
