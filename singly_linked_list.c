@@ -580,7 +580,7 @@ void printchoices()
 	printf("\n");
 		printf("Choices : "
 			"1. Create a linked list by adding each node at the end of previous node"
-			"2. creates a linked list by adding the pervious list at the end of the new node"
+			"2. Create a linked list by adding the pervious list at the end of the new node"
 			"3. Traverse through a linked list"
 			"4. Insert the node at the beginning of the list"
 			"5. Insert the node at the end of the list"
@@ -603,6 +603,7 @@ int main()
 {
 	struct node *start = NULL;
 	int ch;
+	printf("\nOperations on a Doubly Linked List");
 	printchoices();
 	
 	while(1)
